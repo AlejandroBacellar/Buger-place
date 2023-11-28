@@ -17,7 +17,7 @@ let myLi = ''
 
 function showAll(productsArray) {
     let myLi = ''
-    productsArray.forEach((product) => {
+    productsArray.forEach((product) =>  {
         myLi = myLi + `
             <li>
                 <img src="${product.src}">
